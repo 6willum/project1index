@@ -36,15 +36,18 @@ h2 {
 }
 
 
+/* Aligns images to be equal */
 .image-container {
     display: flex;
     justify-content: center;
+    align-items: center; 
 }
 
 .image-container img {
-    margin: 0 10px; /* This adds space between the images. Adjust as needed. */
-    max-width: 100%; /* Ensures images are responsive */
-    height: auto; /* Maintains aspect ratio */
+    margin: 0 10px; /* Spacing between images. */
+    height: 200px; /* Gives each image a fixed height */
+    width: auto; /* Bases the width of the heigh and preserves aspect ratio */
+    object-fit: cover; /* Makes sure images cover area and keep aspect ratio */
 }
 
 /* Media queries for responsive design */
