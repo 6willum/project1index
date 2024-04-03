@@ -51,6 +51,13 @@ h2 {
 
 /* Media queries for responsive design */
 
+/* For smaller screens it will stack the images instead */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
 /* Tablets and larger screens */
 @media only screen and (min-width: 600px) {
     nav {
