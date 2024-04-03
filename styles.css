@@ -35,18 +35,16 @@ h2 {
     font-family: 'Comic Sans MS';
 }
 
-/* Set the proportion (3 images so 1/3 each) */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+
+.image-container {
+    display: flex;
+    justify-content: center;
 }
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.image-container img {
+    margin: 0 10px; /* This adds space between the images. Adjust as needed. */
+    max-width: 100%; /* Ensures images are responsive */
+    height: auto; /* Maintains aspect ratio */
 }
 
 /* Media queries for responsive design */
