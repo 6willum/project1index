@@ -2,12 +2,12 @@ body {
     font-family: 'Comic Sans MS';
     margin: 0;
     padding: 0;
-    background-color: #75663b;
+    background-color: #000000;
 }
 
 header {
     font-family: 'Comic Sans MS';
-    background-color: #a17600;
+    background-color: #000000;
     color: #333;
     padding: 10px;
     text-align: center;
@@ -16,7 +16,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #82754f;
+    background-color: #FFFDD0;
     padding: 10px;
 }
 
